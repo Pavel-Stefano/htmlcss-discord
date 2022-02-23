@@ -190,3 +190,31 @@ background-image: url(../img/wave.svg);
 margin-top: 100px;
 height: 200px;
 }
+
+/* section-4 */
+
+section .container {
+    padding-top: 150px;
+ }
+ 
+ #section-4 .container .left {
+     width: 65%;
+ }
+ 
+ #section-4 .container .right {
+     width: 35%;
+     font-size: 35px ;
+ }
+ 
+ #section-4 .container .right  h2 {
+     font-size: 52px ;
+     padding-top: 30px;
+ }
+ 
+ #section-4 .container .right p {
+     font-size: 23px ;
+     padding-top: 40px;
+     line-height: 1.3em;
+ }
+ 
+ 
