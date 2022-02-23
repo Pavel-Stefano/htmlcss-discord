@@ -90,6 +90,7 @@ ul li a {
 
 /* main */
 
+/* jumbotron */
 #jumbotron {
     background-image: url(../img/jumbo.png);
     min-height: 540px;
@@ -124,4 +125,68 @@ ul li a {
 
 .black-white {
     background-color: black;
+}
+
+/* /jumbotron */
+
+/* section 2 */
+section .container {
+   padding-top: 150px;
+}
+
+#section-2 .container .left {
+    width: 65%;
+}
+
+#section-2 .container .right {
+    width: 35%;
+    font-size: 35px ;
+}
+
+#section-2 .container .right  h2 {
+    font-size: 52px ;
+    padding-top: 30px;
+}
+
+#section-2 .container .right p {
+    font-size: 23px ;
+    padding-top: 60px;
+}
+
+.wave {
+background-image: url(../img/wave.svg);
+margin-top: 100px;
+height: 200px;
+}
+
+/* section 3 */
+
+#section-3 .container .right {
+    width: 65%;
+}
+
+#section-3 .container .right img{
+    padding-left: 50px;
+}
+
+#section-3 .container .left {
+    width: 35%;
+    font-size: 35px ;
+}
+
+#section-3 .container .left  h2 {
+    font-size: 52px ;
+    padding-top: 30px;
+}
+
+#section-3 .container .left p {
+    font-size: 23px ;
+    padding-top: 40px;
+    line-height: 1.3em;
+}
+
+.wave {
+background-image: url(../img/wave.svg);
+margin-top: 100px;
+height: 200px;
 }
