@@ -256,15 +256,21 @@ section .container {
     margin-bottom: 200px;
 }
 
+.contenitore-star {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+}
+
 .download h4 {
     font-size: 40px;
-    background-image: url(../img/stars.svg);
-    background-size: cover;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .download a {
     font-size: 30px;
 }
 
- 
+footer{
+    background-color: black;
+    height: 150px;
+}
