@@ -153,13 +153,17 @@ section .container {
     padding-top: 60px;
 }
 
-.wave {
-background-image: url(../img/wave.svg);
-margin-top: 100px;
-height: 200px;
+.wave svg {
+    color: lightgrey;
 }
 
+
 /* section 3 */
+
+#section-3{
+    background-color: lightgrey;
+    margin: -5px;
+}
 
 #section-3 .container .right {
     width: 65%;
@@ -183,12 +187,6 @@ height: 200px;
     font-size: 23px ;
     padding-top: 40px;
     line-height: 1.3em;
-}
-
-.wave {
-background-image: url(../img/wave.svg);
-margin-top: 100px;
-height: 200px;
 }
 
 /* section-4 */
@@ -216,11 +214,9 @@ section .container {
      padding-top: 40px;
      line-height: 1.3em;
  }
- 
- .wave {
- background-image: url(../img/wave.svg);
- margin-top: 100px;
- height: 200px;
+
+ #section-4 .wave {
+     transform: rotate(180deg);
  }
  
  /* sezione 5 */
@@ -272,5 +268,40 @@ section .container {
 
 footer{
     background-color: black;
-    height: 150px;
+    color: white;
+}
+
+.contenitore-footer {
+    padding: 100px 0;
+}
+
+.social {
+    width: 30%;
+    padding:0 50px;
+    margin-right: 50px;
+}
+
+.social h3 {
+    font-size: 30px;
+}
+
+select {
+    margin-top: 50px 0;
+}
+
+#lingua {
+    border: 1px solid black;
+}
+
+
+.info {
+    width: 15%;
+    color: white;
+    background: black;
+    margin: 40px 0;
+}
+
+.registrazione {
+    padding: 10px 0;
+    border-top: 1px solid grey;
 }
